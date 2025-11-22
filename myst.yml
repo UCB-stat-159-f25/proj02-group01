@@ -8,19 +8,19 @@ project:
   authors: 
   - name: Alistair Clark
     affiliations:
-      - id: ucb
+      - id: 1
         institution: University of California, Berkeley
   - name: Emily Hsu
     affiliations:
-      - id: ucb
+      - id: 2
         institution: University of California, Berkeley
   - name: Fiona Li
     affiliations:
-      - id: ucb
+      - id: 3
         institution: University of California, Berkeley
   - name: Thomas Lee
     affiliations:
-      - id: ucb
+      - id: 4
         institution: University of California, Berkeley
   github: https://github.com/UCB-stat-159-f25/proj02-group01
   toc:
