@@ -2,7 +2,7 @@
 
 # Project 2: Reproducibility in Natural Language Processing
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UCB-stat-159-f25/proj02-group01/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UCB-stat-159-f25/proj02-group01/HEAD?urlpath=%2Fdoc%2Ftree%2Fnlp-P01.ipynb)
 
 ## Overview
 
@@ -33,6 +33,13 @@ conda env create -f environment.yml
 conda activate sotu
 ```
 
+3. **Set up the environment so that you can use it on Jupyter Notebook**
+```bash
+python -m ipykernel install --user --name=sotu --display-name "Python (sotu)"
+```
+
+4. **Choose "Python (sotu)" as the kernel when running the jupyter notebooks.**
+
 ## Repository Structure
 
 ```bash
@@ -40,14 +47,19 @@ data/
   └─ SOTU.csv           # State of the Union speech dataset
 
 outputs/                # Generated outputs from notebooks, including saved figures     
-  └─avg_wordcount_per_president.png
-  └─pyLDAvis_interactive.html
-  └─speeches_per_president.png
-  └─speeches_per_year.png
-  └─topic_distribution.html
-  └─viz_distribution.html
-  └─wordcount_distribution.png
-  └─wordcount_over_year.png
+  └─ avg_wordcount_per_president.png
+  └─ barplot_2017vsbarplot_2023.png
+  └─ .ipynb_checkpoints/
+  └─ plot_of_vectorized_speeches.png
+  └─ pyLDAvis_interactive.html
+  └─ speeches_per_president.png
+  └─ speeches_per_year.png
+  └─ top_10_words_freq_over_time.png
+  └─ topic_distribution.html
+  └─ vecotorized_speeches.png
+  └─ viz_distribution.html
+  └─ wordcount_distribution.png
+  └─ wordcount_over_year.png
 
 nlp-P01.ipynb            # Part 1 — Data loading and exploratory data analysis
 nlp-P02.ipynb            # Part 2 — Text processing and TF-IDF vectorization
@@ -57,6 +69,7 @@ nlp-P04.ipynb            # Part 4 — Word frequency analysis over time
 environment.yml          # Environment configuration file (for reproducibility and Binder)
 myst.yml                 # MyST metadata configuration
 README.md                # Project overview and instructions
+ai_documentation.txt     # documentation for ai usage
 ```
 
 ## Notes 
@@ -64,4 +77,4 @@ README.md                # Project overview and instructions
 - All static and interactive plots generated in Parts 1–4 are saved automatically in the outputs/ folder for reproducibility.
 - The project is fully reproducible by running each notebook.
 - The environment is specified in environment.yml, so you will need to ensure you have run "conda env create -f environment.yml" to have "sotu" environment ready.
-- All required data files are included in the data/ folder.
+- The required data file (sotu.csv) is included in the data/ folder.
