@@ -1,3 +1,6 @@
 Alistair Clark: Used AI for debugging issues with reproducibility in the berTOPIC section of part 3.
+Prompt: Please help me generate the code for saving the interactive plots into html.
+Output: Codes shown
+
 Thomas Lee: Refine the summary of each word over time (Not understanding US history that well compared to ChatGPT :p)
 Prompt: I found "america", "american", "americans", "job" goes up a lot in recent 75 years. Can you please help me to summarize the other word with the historical context? (With the image attached)

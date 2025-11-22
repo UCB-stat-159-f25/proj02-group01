@@ -70,6 +70,7 @@ environment.yml          # Environment configuration file (for reproducibility a
 myst.yml                 # MyST metadata configuration
 README.md                # Project overview and instructions
 ai_documentation.txt     # documentation for ai usage
+contribution_statement.md# contribution from each member
 ```
 
 ## Notes 
